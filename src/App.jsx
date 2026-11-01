@@ -7,6 +7,7 @@ import Internships from './components/Internships'
 import Leadership from './components/Leadership'
 import SoftSkills from './components/SoftSkills'
 import Footer from './components/Footer'
+import { internshipsList, leadershipList } from './data/portfolioData'
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
       <About />
       <TechnicalSkills />
       <Projects />
-      <Internships />
-      <Leadership />
+      {internshipsList && internshipsList.length > 0 && <Internships />}
+      {leadershipList && leadershipList.length > 0 && <Leadership />}
       <SoftSkills />
       <Footer />
     </>
