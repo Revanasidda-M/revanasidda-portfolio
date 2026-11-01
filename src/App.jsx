@@ -1,3 +1,4 @@
+import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -12,6 +13,7 @@ import { internshipsList, leadershipList } from './data/portfolioData'
 function App() {
   return (
     <>
+      <Preloader />
       <Navbar />
       <Hero />
       <About />
