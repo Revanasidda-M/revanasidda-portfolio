@@ -2,7 +2,7 @@
 
 A high-performance developer portfolio showcasing full-stack Java, Spring Boot, and React engineering projects.
 
-- **Live site:** https://YOUR-SITE-URL/
+- **Live site:** https://revanasidda-portfolio.vercel.app/
 
 Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
 
